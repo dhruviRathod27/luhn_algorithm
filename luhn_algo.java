@@ -25,7 +25,11 @@ public class Main
 	    int x=0;
 	    x=(sum*9)%10;
 	    System.out.println("value of last digit is:"+x);
-		
+	for(int i=0;i<pass.length;i++)
+	{
+	System.out.print(pass[i]);
+	}
+		System.out.print(x);
 	    
 	}
 }	    
